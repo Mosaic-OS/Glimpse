@@ -154,4 +154,9 @@
     <string name="hide_native_seek_buttons_description">Hide rewind and fast-forward buttons from the video player controls</string>
     <string name="remember_video_playback_position_enabled_title">Remember playback position</string>
     <string name="remember_video_playback_position_enabled_description">Resume videos from the last stopped position</string>
+
+    <!-- Cropping -->
+    <string name="crop_image">Crop image</string>
+    <string name="crop">Save</string>
+    <string name="image_to_crop">Image to crop</string>
 </resources>

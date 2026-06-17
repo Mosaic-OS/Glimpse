@@ -1,0 +1,1 @@
+This is an independent project based on [LineageOS Glimpse](https://github.com/LineageOS/android_packages_apps_Glimpse). It is **not affiliated with, endorsed by, or maintained by the LineageOS team** - all credit for the original application goes to its authors.

@@ -8,6 +8,7 @@ package org.lineageos.glimpse.fragments
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
@@ -33,7 +34,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
 
-                navigationBarView.menu.getItem(position).isChecked = true
+                navigationBarView.menu[position].isChecked = true
             }
         }
     }

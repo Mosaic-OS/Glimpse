@@ -110,4 +110,7 @@
     <string name="hide_native_seek_buttons_description">Visszatekerés és előretekerés gombok elrejtése a videolejátszó vezérlői közül</string>
     <string name="remember_video_playback_position_enabled_title">Lejátszási pozíció megjegyzése</string>
     <string name="remember_video_playback_position_enabled_description">Videók folytatása az utolsó leállítási pozíciótól</string>
+    <string name="crop_image">Vágás</string>
+    <string name="crop">Mentés</string>
+    <string name="image_to_crop">Kép vágása</string>
 </resources>

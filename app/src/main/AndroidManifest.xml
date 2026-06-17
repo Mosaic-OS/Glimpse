@@ -131,6 +131,18 @@
             android:label="@string/title_activity_settings"
             android:theme="@style/Theme.SettingsLib" />
 
+        <activity
+            android:name=".crop.CropActivity"
+            android:label="@string/crop_image"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.camera.action.CROP" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

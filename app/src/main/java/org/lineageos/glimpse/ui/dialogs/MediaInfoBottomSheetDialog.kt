@@ -10,7 +10,6 @@ import android.content.Context
 import android.content.Intent
 import android.location.Address
 import android.location.Geocoder
-import android.net.Uri
 import android.os.Build
 import android.text.InputType
 import android.text.format.Formatter
@@ -22,6 +21,7 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
+import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
@@ -176,7 +176,7 @@ class MediaInfoBottomSheetDialog(
                 locationInfoListItem.setOnClickListener {
                     val intent = Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("geo:?q=%.8f,%.8f".format(Locale.US, lat, long))
+                        "geo:?q=%.8f,%.8f".format(Locale.US, lat, long).toUri()
                     )
 
                     context.startActivity(

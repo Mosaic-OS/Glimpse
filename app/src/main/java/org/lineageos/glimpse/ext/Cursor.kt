@@ -12,7 +12,7 @@ fun <T> Cursor?.mapEachRow(
     mapping: (ColumnIndexCache) -> T,
 ) = this?.use { cursor ->
     if (!cursor.moveToFirst()) {
-        return@use emptyList<T>()
+        return@use emptyList()
     }
 
     val columnIndexCache = ColumnIndexCache(cursor)
