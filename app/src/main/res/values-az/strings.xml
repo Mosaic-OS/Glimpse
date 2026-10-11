@@ -5,7 +5,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Qalereya</string>
-    <string name="app_permissions_toast">İstifadəçi tərəfindən verilməyən icazələr.</string>
+    <string name="app_permissions_toast">İstifadəçi izinləri vermədi.</string>
     <string name="reels_title">Reels</string>
     <string name="albums_title">Albomlar</string>
     <string name="categories_title">Kateqoriyalar</string>
@@ -55,7 +55,7 @@
         <item quantity="one">Fayl tullantı qutusundan bərpa edilə bilmədi</item>
         <item quantity="other">%d fayl tullantı qutusundan bərpa edilə bilmədi</item>
     </plurals>
-    <string name="manage_media_permission_title">Media icazələrini idarə et</string>
+    <string name="manage_media_permission_title">Media izinlərini darə et</string>
     <string name="manage_media_permission_message">Şəkillərini və videolarınızı daha yaxşı idarə etmək üçün tətbiqin media fayllarınızı idarə etməsinə icazə verin</string>
     <string name="media_info_unknown">Bilinmir</string>
     <string name="media_info_add_description_hint">Bir açıqlama əlavə et</string>
@@ -74,7 +74,7 @@
     <string name="file_action_empty_trash">Tullantı qutusunu boşalt</string>
     <string name="file_action_information">Məlumat</string>
     <string name="file_action_move_to_trash">Tullantı qutusuna daşı</string>
-    <string name="file_action_remove_from_favorites">Sevimlilərdən sil</string>
+    <string name="file_action_remove_from_favorites">Sevimlilərdən çıxart</string>
     <string name="file_action_restore_from_trash">Tullantı qutusundan bərpa et</string>
     <string name="file_action_share">Paylaş</string>
     <string name="file_action_use_as">İstifadə et</string>
